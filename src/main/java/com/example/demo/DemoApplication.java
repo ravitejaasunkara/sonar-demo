@@ -20,7 +20,7 @@ class VersionController {
 	@Value("${version}")
 	private String version;
 
-	@GetMapping("/versions")
+	@GetMapping("/versionss")
 	public String getVersion(){
 		return version;
 	}
