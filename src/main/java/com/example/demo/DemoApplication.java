@@ -33,3 +33,13 @@ class VersionController {
 		return "Service is fine";
 	}
 }
+
+@RestController
+class TestController{
+	private String a;
+	private String b = "fsjddfjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss";
+	@GetMapping("/getb")
+	public String getB(){
+		return b;
+	}
+}
