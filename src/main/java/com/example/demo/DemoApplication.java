@@ -32,6 +32,10 @@ class VersionController {
 	public String home(){
 		return "Service is fine";
 	}
+
+	public void doSomething()
+	{
+	}
 }
 
 @RestController
