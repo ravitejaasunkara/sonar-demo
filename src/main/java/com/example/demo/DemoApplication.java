@@ -17,6 +17,9 @@ public class DemoApplication {
 
 @RestController
 class VersionController {
+
+	private String date;
+	
 	@Value("${version}")
 	private String version;
 
