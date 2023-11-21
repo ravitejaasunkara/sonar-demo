@@ -19,6 +19,8 @@ public class DemoApplication {
 class VersionController {
 
 	private String date;
+
+	private int count;
 	
 	@Value("${version}")
 	private String version;
