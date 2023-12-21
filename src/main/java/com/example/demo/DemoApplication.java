@@ -46,4 +46,9 @@ class TestController{
 	public String getB(){
 		return b;
 	}
+
+	@GetMapping("/hello")
+	public String getName(){
+		return "RAviteja";
+	}
 }
