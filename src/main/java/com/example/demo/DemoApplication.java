@@ -49,6 +49,7 @@ class TestController{
 
 	@GetMapping("/hello")
 	public String getName(){
+		int abcdefghijklmnopqrstuvwxyz = 1;
 		return "RAviteja";
 	}
 }
