@@ -48,6 +48,6 @@ class TestController{
 	}
 
 	public void someNewMethod(){
-		System.out.println("Hello world"):
+		System.out.println("Hello world");
 	}
 }
