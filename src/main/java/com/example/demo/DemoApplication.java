@@ -46,4 +46,8 @@ class TestController{
 	public String getB(){
 		return b;
 	}
+
+	public void someNewMethod(){
+		System.out.println("Hello world");
+	}
 }
